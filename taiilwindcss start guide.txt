@@ -1,0 +1,13 @@
+npx tailwindcss init
+// create two folder, one is dist, oneis src -> input.css, write basic component etc
+modify the tailwind.config.js file 
+add location of html/ejs file, that will affect
+
+now output file
+
+now build : 
+npx tailwindcss -i ./src/input.css -o ./public/css/style.css
+
+
+and which file to watch
+npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Website: Home</title>
+    </head>
+
+    <body class="bg-gray-100 text-gray-800 dark:text-gray-200">
+        Navigation Bar
+        <nav class="bg-gray-900 flex justify-between items-center p-5">
+            <div id="logo" class="ml-3">
+                <a href="/">
+                    <img class="h-12 w-12" src="images/logo.png" alt="Logo" />
+                </a>
+            </div>
+            <div id="menu">
+                <ul class="flex space-x-5 text-gray-300">
+                    <a href="/">
+                        <li
+                            class="m-2 p-4 hover:text-gray-900 hover:bg-gray-100 hover:font-bold rounded-lg transition-all duration-350 ease-in-out"
+                        >
+                            Home
+                        </li>
+                    </a>
+
+                    <a href="/shop">
+                        <li
+                            class="m-2 p-4 hover:text-gray-900 hover:bg-gray-100 hover:font-bold rounded-lg transition-all duration-350 ease-in-out"
+                        >
+                            Shop
+                        </li>
+                    </a>
+
+                    <a href="/about">
+                        <li
+                            class="m-2 p-4 hover:text-gray-900 hover:bg-gray-100 hover:font-bold rounded-lg transition-all duration-350 ease-in-out"
+                        >
+                            About
+                        </li>
+                    </a>
+                    <a href="/contact">
+                        <li
+                            class="m-2 p-4 hover:text-gray-900 hover:bg-gray-100 hover:font-bold rounded-lg transition-all duration-350 ease-in-out"
+                        >
+                            Contact
+                        </li>
+                    </a>
+
+                    <a href="/login">
+                        <li
+                            class="m-2 p-4 hover:text-gray-900 hover:bg-gray-100 hover:font-bold rounded-lg transition-all duration-350 ease-in-out"
+                        >
+                            Login
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Carousel Section -->
+        <section class="carousel mt-10">
+            <div class="w-full relative">
+                <!-- Carousel Images -->
+                <div class="carousel-inner relative overflow-hidden w-full">
+                    <div class="carousel-item active">
+                        <img
+                            src="images/carousel-1.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 1"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-2.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 2"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-3.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 3"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-4.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 4"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-5.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 5"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-6.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 6"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-7.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 7"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-8.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 8"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-9.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 9"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="images/carousel-10.jpg"
+                            class="block w-full h-auto"
+                            alt="Carousel Image 10"
+                        />
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button
+                    class="absolute top-1/2 left-0 transform -translate-y-1/2 text-white p-4 bg-gray-900 bg-opacity-50 rounded-r-full"
+                >
+                    &#10094;
+                </button>
+                <button
+                    class="absolute top-1/2 right-0 transform -translate-y-1/2 text-white p-4 bg-gray-900 bg-opacity-50 rounded-l-full"
+                >
+                    &#10095;
+                </button>
+            </div>
+        </section>
+
+        <!-- Team Leaders Section -->
+        <section class="team-leaders mt-20">
+            <h2
+                class="text-3xl font-bold text-center text-gray-800 dark:text-gray-200"
+            >
+                Meet Our Team
+            </h2>
+            <div class="mt-10 px-4">
+                <!-- Use flexbox for centering rows and grid for responsive layout -->
+                <div
+                    class="grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center"
+                >
+                    <!-- Team Member 1 -->
+                    <div class="team-member text-center">
+                        <img
+                            src="images/team-member-1.jpg"
+                            class="w-32 h-32 mx-auto rounded-full border-4 border-gray-900"
+                            alt="Team Member 1"
+                        />
+                        <h3
+                            class="text-xl font-semibold mt-4 text-gray-800 dark:text-gray-200"
+                        >
+                            John Doe
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            CEO & Founder
+                        </p>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="team-member text-center">
+                        <img
+                            src="images/team-member-2.jpg"
+                            class="w-32 h-32 mx-auto rounded-full border-4 border-gray-900"
+                            alt="Team Member 2"
+                        />
+                        <h3
+                            class="text-xl font-semibold mt-4 text-gray-800 dark:text-gray-200"
+                        >
+                            Jane Smith
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            Product Manager
+                        </p>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="team-member text-center">
+                        <img
+                            src="images/team-member-3.jpg"
+                            class="w-32 h-32 mx-auto rounded-full border-4 border-gray-900"
+                            alt="Team Member 3"
+                        />
+                        <h3
+                            class="text-xl font-semibold mt-4 text-gray-800 dark:text-gray-200"
+                        >
+                            Mark Lee
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            Lead Developer
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Second Row with 2 Team Members -->
+                <div
+                    class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-10 justify-items-center"
+                >
+                    <!-- Team Member 4 -->
+                    <div class="team-member text-center">
+                        <img
+                            src="images/team-member-4.jpg"
+                            class="w-32 h-32 mx-auto rounded-full border-4 border-gray-900"
+                            alt="Team Member 4"
+                        />
+                        <h3
+                            class="text-xl font-semibold mt-4 text-gray-800 dark:text-gray-200"
+                        >
+                            Emily Davis
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            Marketing Head
+                        </p>
+                    </div>
+                    <!-- Team Member 5 -->
+                    <div class="team-member text-center">
+                        <img
+                            src="images/team-member-5.jpg"
+                            class="w-32 h-32 mx-auto rounded-full border-4 border-gray-900"
+                            alt="Team Member 5"
+                        />
+                        <h3
+                            class="text-xl font-semibold mt-4 text-gray-800 dark:text-gray-200"
+                        >
+                            James Carter
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            Design Lead
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews mt-20">
+            <h2
+                class="text-3xl font-bold text-center text-gray-800 dark:text-gray-200"
+            >
+                What Our Customers Say
+            </h2>
+            <div class="carousel mt-10">
+                <div class="flex overflow-x-auto space-x-6 px-4">
+                    <!-- Review 1 -->
+                    <div
+                        class="review-card bg-white p-6 rounded-lg shadow-lg max-w-sm"
+                    >
+                        <p class="text-gray-600 dark:text-gray-400">
+                            "This is the best product I've ever used! Amazing
+                            quality and fantastic customer support!"
+                        </p>
+                        <p
+                            class="mt-4 text-gray-800 dark:text-gray-200 font-semibold"
+                        >
+                            John Doe
+                        </p>
+                        <p class="text-gray-500 dark:text-gray-400">
+                            CEO, Example Corp
+                        </p>
+                    </div>
+                    <!-- Review 2 -->
+                    <div
+                        class="review-card bg-white p-6 rounded-lg shadow-lg max-w-sm"
+                    >
+                        <p class="text-gray-600 dark:text-gray-400">
+                            "Absolutely love it. The team was amazing and the
+                            product exceeded my expectations."
+                        </p>
+                        <p
+                            class="mt-4 text-gray-800 dark:text-gray-200 font-semibold"
+                        >
+                            Jane Smith
+                        </p>
+                        <p class="text-gray-500 dark:text-gray-400">
+                            Product Manager, XYZ Inc.
+                        </p>
+                    </div>
+                    <!-- Review 3 -->
+                    <div
+                        class="review-card bg-white p-6 rounded-lg shadow-lg max-w-sm"
+                    >
+                        <p class="text-gray-600 dark:text-gray-400">
+                            "Great experience from start to finish! Highly
+                            recommend to anyone looking for a quality service."
+                        </p>
+                        <p
+                            class="mt-4 text-gray-800 dark:text-gray-200 font-semibold"
+                        >
+                            Mark Lee
+                        </p>
+                        <p class="text-gray-500 dark:text-gray-400">
+                            Lead Developer, Tech Solutions
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

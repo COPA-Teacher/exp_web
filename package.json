@@ -1,0 +1,30 @@
+{
+    "name": "example_website",
+    "version": "1.0.0",
+    "description": "a frontend demo website",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/COPA-Teacher/example_website.git"
+    },
+    "author": "fe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/COPA-Teacher/example_website/issues"
+    },
+    "homepage": "https://github.com/COPA-Teacher/example_website#readme",
+    "devDependencies": {
+        "nodemon": "^3.1.9",
+        "tailwindcss": "^3.4.17"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2"
+    }
+}
