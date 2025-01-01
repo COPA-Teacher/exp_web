@@ -1,0 +1,638 @@
+
+        <!-- Shop Container -->
+        <div class="max-w-7xl mx-auto py-8 px-5">
+            <!-- Shop Title -->
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-6">
+                Our Shop
+            </h2>
+
+            <!-- Grid for 5 Products per Row -->
+            <div
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6"
+            >
+                <!-- Product Item 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-1.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$69.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 2 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-2.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$79.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 3 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-3.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$89.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 4 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-4.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$99.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 5 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-5.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$109.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 1 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-1.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$69.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 2 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-2.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$79.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 3 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-3.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$89.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 4 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-4.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$99.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 5 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-5.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$109.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 1 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-1.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$69.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 2 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-2.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$79.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 3 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-3.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$89.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 4 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-4.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$99.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 5 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-5.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$109.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 1 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-1.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$69.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 2 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-2.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$79.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 3 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-3.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$89.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 4 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-4.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$99.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 5 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-5.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$109.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 1 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-1.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$69.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 2 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-2.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$79.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 3 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-3.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$89.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 4 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-4.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$99.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item 5 -->
+                <div class="bg-gray-400 p-6 rounded-lg shadow-lg">
+                    <div class="w-32 h-32">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="images/product-5.jpg"
+                            alt="Product Image"
+                        />
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-xl font-semibold text-gray-800">
+                            Product Name
+                        </h3>
+                        <p class="text-gray-200 mt-2">
+                            Short description of the product goes here. It
+                            highlights key features and benefits.
+                        </p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <span class="text-2xl font-semibold text-gray-900"
+                                >$109.99</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,107 @@
+[
+    {
+        "title": "First slide label",
+        "description": "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        "image": "/images/carousel-1.jpg"
+    },
+    {
+        "title": "Second slide label",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "/images/carousel-2.jpg"
+    },
+    {
+        "title": "Third slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-3.jpg"
+    },
+    {
+        "title": "Fourth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-4.jpg"
+    },
+    {
+        "title": "Fifth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-5.jpg"
+    },
+    {
+        "title": "Sixth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-6.jpg"
+    },
+    {
+        "title": "Seventh slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-7.jpg"
+    },
+    {
+        "title": "Eighth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-8.jpg"
+    },
+    {
+        "title": "Ninth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-9.jpg"
+    },
+    {
+        "title": "Tenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-10.jpg"
+    },
+    {
+        "title": "Eleventh slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-11.jpg"
+    },
+    {
+        "title": "Twelfth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-12.jpg"
+    },
+    {
+        "title": "Thirteenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-13.jpg"
+    },
+    {
+        "title": "Fourteenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-14.jpg"
+    },
+    {
+        "title": "Fifteenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-15.jpg"
+    },
+    {
+        "title": "Sixteenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-16.jpg"
+    },
+    {
+        "title": "Seventeenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-17.jpg"
+    },
+    {
+        "title": "Eighteenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-18.jpg"
+    },
+    {
+        "title": "Nineteenth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-19.jpg"
+    },
+    {
+        "title": "Twentieth slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-20.jpg"
+    },
+    {
+        "title": "Twenty-first slide label",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        "image": "/images/carousel-21.jpg"
+    }
+]
