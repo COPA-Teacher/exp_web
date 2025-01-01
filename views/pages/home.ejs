@@ -8,7 +8,7 @@
     </head>
 
     <body class="bg-gray-100 text-gray-800 dark:text-gray-200">
-        Navigation Bar
+        <!-- Navigation Bar -->
         <nav class="bg-gray-900 flex justify-between items-center p-5">
             <div id="logo" class="ml-3">
                 <a href="/">
@@ -59,95 +59,105 @@
             </div>
         </nav>
 
-        <!-- Carousel Section -->
-        <section class="carousel mt-10">
+        <section class="carousel mt-1 relative overflow-hidden">
             <div class="w-full relative">
-                <!-- Carousel Images -->
-                <div class="carousel-inner relative overflow-hidden w-full">
-                    <div class="carousel-item active">
+                <div
+                    class="carousel-inner relative flex w-full transition-transform duration-500 ease-in-out"
+                    id="carousel-inner"
+                    style="transform: translateX(0)"
+                >
+                    <% carousels.forEach((slide, index) => { %>
+                    <div
+                        class="carousel-item flex-shrink-0 w-full <%= index === 0 ? 'active' : '' %>"
+                        data-index="<%= index %>"
+                    >
                         <img
-                            src="images/carousel-1.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 1"
+                            src="<%= slide.image %>"
+                            class="w-full h-[85vh] object-cover"
+                            alt="<%= slide.title %>"
                         />
+                        <div
+                            class="absolute bottom-0 left-0 bg-transparent bg-opacity-50 text-white p-4"
+                        >
+                            <h2 class="text-xl font-bold">
+                                <%= slide.title %>
+                            </h2>
+                            <p><%= slide.description %></p>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-2.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 2"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-3.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 3"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-4.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 4"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-5.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 5"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-6.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 6"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-7.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 7"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-8.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 8"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-9.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 9"
-                        />
-                    </div>
-                    <div class="carousel-item">
-                        <img
-                            src="images/carousel-10.jpg"
-                            class="block w-full h-auto"
-                            alt="Carousel Image 10"
-                        />
-                    </div>
+                    <% }) %>
                 </div>
+
                 <!-- Carousel Controls -->
                 <button
-                    class="absolute top-1/2 left-0 transform -translate-y-1/2 text-white p-4 bg-gray-900 bg-opacity-50 rounded-r-full"
+                    class="absolute top-1/2 left-4 transform -translate-y-1/2 text-white p-4 bg-gray-900 bg-opacity-50 rounded-full z-10"
+                    id="prev-btn"
                 >
                     &#10094;
                 </button>
                 <button
-                    class="absolute top-1/2 right-0 transform -translate-y-1/2 text-white p-4 bg-gray-900 bg-opacity-50 rounded-l-full"
+                    class="absolute top-1/2 right-4 transform -translate-y-1/2 text-white p-4 bg-gray-900 bg-opacity-50 rounded-full z-10"
+                    id="next-btn"
                 >
                     &#10095;
                 </button>
             </div>
         </section>
+
+        <!-- Carouser  -->
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const carouselInner = document.getElementById("carousel-inner");
+                const prevBtn = document.getElementById("prev-btn");
+                const nextBtn = document.getElementById("next-btn");
+                const items = document.querySelectorAll(".carousel-item");
+                let currentIndex = 0;
+                let interval;
+
+                const updateCarousel = () => {
+                    const width = carouselInner.clientWidth;
+                    carouselInner.style.transform = `translateX(-${
+                        currentIndex * width
+                    }px)`;
+                };
+
+                const startAutoSlide = () => {
+                    interval = setInterval(() => {
+                        currentIndex = (currentIndex + 1) % items.length;
+                        updateCarousel();
+                    }, 2000); // 2 seconds
+                };
+
+                const stopAutoSlide = () => {
+                    clearInterval(interval);
+                };
+
+                nextBtn.addEventListener("click", () => {
+                    stopAutoSlide();
+                    currentIndex = (currentIndex + 1) % items.length;
+                    updateCarousel();
+                    startAutoSlide();
+                });
+
+                prevBtn.addEventListener("click", () => {
+                    stopAutoSlide();
+                    currentIndex =
+                        (currentIndex - 1 + items.length) % items.length;
+                    updateCarousel();
+                    startAutoSlide();
+                });
+
+                // Hover functionality to stop/resume the auto-slide
+                carouselInner.addEventListener("mouseover", stopAutoSlide);
+                carouselInner.addEventListener("mouseout", startAutoSlide);
+
+                // Adjust carousel on window resize
+                window.addEventListener("resize", updateCarousel);
+
+                // Start the auto-slide on load
+                startAutoSlide();
+            });
+        </script>
 
         <!-- Team Leaders Section -->
         <section class="team-leaders mt-20">
